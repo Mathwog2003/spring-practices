@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+
+        <bean id="doctor" class="com.springdemo.Doctor">
+<!--            <property name="qualification" value="mbbs"> </property>-->
+            <constructor-arg value="mbbs"></constructor-arg>
+        </bean>
+    <bean id="nurse" class="com.springdemo.Nurse"></bean>
+
+</beans>
+
